@@ -1,0 +1,111 @@
+.register-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container a.back {
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    margin-left: 40px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    color: #c49000;
+    text-decoration: none;
+    font-weight: 400;
+    transition: opacity 0.2;
+}
+
+.register-container a.back svg {
+    margin-right: 10px;
+}
+
+.register-container a.back:hover {
+    opacity: 0.8;
+}
+
+.register-container img {
+    align-self: center;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 20px;
+    align-self: flex-start;
+}
+
+.register-container section.form {
+    width: 100%;
+    max-width: 600px;
+    align-items: center;
+    margin-right: 20px;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #c49000;
+}
+
+.register-container section.form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-container section.form form h1 {
+    color: #9a0007;
+    font-weight: 400;
+    font-size: 48px;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.register-container section.form form input {
+    width: 80%;
+    height: 50px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: #808e95;
+    background-color: #ffffff;
+    padding: 0 24px;
+    margin-top: 20px;
+}
+
+.register-container section.form form div.birth {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.register-container section.form form div.birth p {
+    font-size: 24px;
+    color: #4b2c20;
+    margin-left: 60px;
+}
+
+.register-container section.form form div.birth input {
+    margin-top: 5px;
+    color: #c4c4c4;
+} 
+
+.register-container section.form form button {
+    width: 40%;
+    height: 60px;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    background-color: #4b2c20;
+    outline: none;
+    transition: opacity 0.2;
+}
+
+.register-container section.form form button:hover {
+    opacity: 0.8;
+}

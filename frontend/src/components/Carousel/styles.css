@@ -1,0 +1,26 @@
+.carousel-container {
+  display: flex;
+  overflow-x: scroll hidden;
+  width: 100%;
+  max-width: 1000px;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.book {
+  width: 200px;
+  height: 250px;
+  background-color: #c4c4c4;
+  margin-right: 10px;
+  border-radius: 20px;
+  font-size: 24px;
+  padding-top: 200px;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #9a0007;
+}
+	

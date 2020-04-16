@@ -1,0 +1,118 @@
+.compose-container {
+    overflow-y: scroll;
+    overflow: hidden;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 100px;
+    height: 800px;
+}
+
+.compose-content {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    margin-top: 120px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1120px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 36px;
+    align-self: flex-start;
+} 
+
+a.back {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    margin-left: 40px;
+    margin-top: 0px;
+    color: #c49000;
+    text-decoration: none;
+    font-weight: 400;
+    transition: opacity 0.2;
+    font-size: 36px;
+}
+
+.resume {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 20px;
+}
+
+.resume input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    color: #808e95;
+    background-color: #ffffff;
+    padding: 0 24px;
+}
+
+.resume select {
+    width: 40%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: #c4c4c4;
+    background: #ffffff;
+    padding: 0 24px;
+    font-size: 24px;
+    outline: none;
+}
+
+.resume select option {
+    border-radius: 10px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 1000px;
+    height: 300px;
+    background-color: #ffffff;
+    color: #808e95;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 20px 24px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 30%;
+    height: 60px;
+    align-self: center;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    background-color: #c49000;
+    outline: none;
+    transition: opacity 0.2;
+}
+
+
